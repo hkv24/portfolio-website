@@ -31,11 +31,13 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (Next.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 3 years, I still love it as if it was something new.
+              I&apos;m a highly skilled full stack developer with expertise in
+              Next.js and Node.js, dedicated to crafting high-performance, accessible,
+              and visually compelling digital experiences. With over three years of
+              experience in web development, I am passionate about building seamless,
+              responsive applications that enhance user engagement. My work extends beyond
+              development, occasionally incorporating design to ensure a cohesive and
+              polished final product.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
