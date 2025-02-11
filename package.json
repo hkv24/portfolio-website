@@ -1,12 +1,15 @@
 {
-  "name": "sagarshah.dev",
-  "version": "0.1.0",
+  "homepage": "https://hkv24.github.io/portfolio-website",
+  "name": "harsh.dev",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.4",
