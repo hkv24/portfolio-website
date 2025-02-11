@@ -86,7 +86,7 @@ const ContactSection = () => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <Typography className="text-center">
-            You may also find me on these platforms!
+            You can also connect with me on:
           </Typography>
           <SocialIcons />
         </div>
