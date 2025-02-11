@@ -35,5 +35,3 @@ const ThemeSwitcher = () => {
 };
 
 export default ThemeSwitcher;
-
-// Ref :: https://www.npmjs.com/package/next-themes#avoid-hydration-mismatch

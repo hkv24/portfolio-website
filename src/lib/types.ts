@@ -14,10 +14,3 @@ export type ProjectDetails = {
   previewImage: string | StaticImageData;
   technologies: string[];
 };
-
-export type TestimonialDetails = {
-  personName: string;
-  personAvatar?: string | StaticImageData;
-  testimonial: string;
-  title: string;
-};

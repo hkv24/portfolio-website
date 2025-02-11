@@ -185,7 +185,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Bubble Game',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+      'This game is a fast-paced number game where players test their reflexes and accuracy! At the start, the player selects a number, determining how many bubbles appear on the screen. Each bubble contains a randomly assigned number, and a target number is displayed at the top. The goal is simple: tap the bubble with the target number to score points. Every correct hit adds +10 points, and all bubbles reshuffle with new numbers. The challenge? Stay quick and focused as the target keeps changing! With 60 seconds of total time. This game is an addictive test of speed and precision. 🚀🔢🎯',
     url: 'https://hkv24.github.io/bubble-game/',
     previewImage: ProjectBubbleGame,
     technologies: [
