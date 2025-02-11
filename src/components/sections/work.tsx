@@ -4,7 +4,7 @@ import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 
-const WorkSection = () => {
+const ProjectSection = () => {
   return (
     <Container id="work">
       <div className="flex flex-col items-center gap-4">
@@ -27,4 +27,4 @@ const WorkSection = () => {
   );
 };
 
-export default WorkSection;
+export default ProjectSection;

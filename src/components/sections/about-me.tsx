@@ -34,24 +34,21 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m a passionate, self-proclaimed programmer
-            who specializes in full stack development (Next.js & Node.js). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+            I am a dedicated full-stack developer specializing in Next.js and Node.js,
+            with a strong passion for crafting seamless digital experiences.
+            My expertise lies in developing high-performance, scalable applications
+            with a keen focus on user experience, clean architecture, and maintainable code.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2022, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early twenties, 3 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs, ORMs,
-            Tailwindcss, Supabase and much more.
+            My journey in web development began in 2022, and over the past three years,
+            I have continuously evolved—adapting to emerging technologies and tackling
+            complex challenges. Currently in my early twenties, I build modern,
+            scalable web applications using cutting-edge technologies such as Next.js,
+            TypeScript, NestJS, Prisma ORM, Tailwind CSS, Supabase, and more.
           </Typography>
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
+            I take a holistic approach to development, working on products from ideation
+            to deployment, ensuring both technical excellence and visual precision.
           </Typography>
           <Typography>
             When I&apos;m not in full-on developer mode, you can find me
@@ -78,16 +75,23 @@ const AboutMeSection = () => {
             </Link>
             .
           </Typography>
-          <Typography>Finally, some quick bits about me.</Typography>
+          <Typography>Quick Facts About Me:</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.Tech. in Mechanical Engineering from NIT Kurukshetra
+                Education: B.Tech. in Mechanical Engineering from NIT Kurukshetra
+              </Typography>
+              <Typography component="li">
+                A passionate listener and admirer of Karan Aujla&apos;s music
               </Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
+              <Typography component="li">
+                Lifelong Learner: Continuously exploring and mastering new technologies
+              </Typography>
+              <Typography component="li">
+                Passionate about building impactful digital products
+              </Typography>
             </ul>
           </div>
           <Typography>

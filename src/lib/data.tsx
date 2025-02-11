@@ -20,30 +20,18 @@ import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
-
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
-
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import ProjectMedium from '/public/images/project-medium.png';
+import ProjectLexiGen from '/public/images/project-lexigen.jpg';
+import ProjectBubbleGame from '/public/images/project-bubble.png';
 
 import {
-  ExperienceDetails,
   ProjectDetails,
   TechDetails,
-  TestimonialDetails,
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/hkv24/',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB_REPO: 'https://github.com/hkv24/portfolio-website',
   TWITTER: 'https://twitter.com/hkverma24'
 };
 
@@ -55,10 +43,6 @@ export const NAV_LINKS = [
   {
     label: 'Work',
     href: '#work',
-  },
-  {
-    label: 'Testimonials',
-    href: '#testimonials',
   },
   {
     label: 'Contact',
@@ -163,122 +147,51 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 ];
 
-export const EXPERIENCES: ExperienceDetails[] = [
-  {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
-    summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
-    ],
-  },
-  {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
-    summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
-    ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
-  },
-];
-
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
-    description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+    name: 'LexiGen-AI',
+    description: 'The project leverages the Gemini Flash 1.5 API to offer a robust suite of prompts and templates for users. This platform empowers individuals and businesses to generate high-quality content effortlessly, utilizing a variety of templates and smart prompts tailored to their needs. Sample Credentials -> { gmail: "test@gmail.com", password: 12345678}.',
+    url: 'https://lexigen-ai.vercel.app/',
+    previewImage: ProjectLexiGen,
     technologies: [
-      'React',
+      'Next.js',
       'Typescript',
-      'React Bootstrap',
-      'Firebase',
+      'Tailwind',
+      'Drizzle ORM',
       'Express.js',
       'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      'Shadcn',
+      'Recoil State Management',
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'Medium Clone',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'This project, Medium, is a full-stack clone of medium.com, the popular blogging platform. It leverages the power of Cloudflare Workers for serverless deployment, ensuring cost efficiency and scalability.',
+    url: 'https://medium-zeta-ashen.vercel.app/signin',
+    previewImage: ProjectMedium,
     technologies: [
       'React',
-      'Next.js',
       'Typescript',
       'Tailwindcss',
       'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
+      'Cloudflare Woker',
+      'Recoil State Management',
+      'Hono.js',
       'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'Prisma ORM',
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Bubble Game',
     description:
       'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+    url: 'https://hkv24.github.io/bubble-game/',
+    previewImage: ProjectBubbleGame,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
-  },
-];
-
-export const TESTIMONIALS: TestimonialDetails[] = [
-  {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Harsh and will rehire in the future for Frontend development.',
-  },
-  {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
-    testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
-  },
-  {
-    personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Harsh was extremely easy and pleasant to work with and he truly cares about the project being a success. Harsh has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Javascript',
+      'CSS',
+      'HTML',
+    ]
   },
 ];
