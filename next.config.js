@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
+    // Removed static export for Vercel deployment
+    // Vercel handles optimization automatically
 }
 
 module.exports = nextConfig;

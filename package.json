@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hkv24.github.io/portfolio-website",
   "name": "harsh.dev",
   "version": "1.0.0",
   "private": true,
@@ -7,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.4",
@@ -34,7 +31,6 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
