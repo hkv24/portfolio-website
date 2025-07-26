@@ -1,15 +1,15 @@
-import { Inter } from 'next/font/google';
-import { Metadata, Viewport } from 'next';
+import { Inter } from 'next/font/google'
+import { Metadata, Viewport } from 'next'
 
-import './globals.css';
-import Header from '@/components/layout/header';
-import { Providers } from '@/lib/providers';
-import Footer from '@/components/layout/footer';
+import './globals.css'
+import Header from '@/components/layout/header'
+import { Providers } from '@/lib/providers'
+import Footer from '@/components/layout/footer'
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] })
 
-const title = 'Harsh Kumar Verma | Full Stack Developer From New Delhi, India.';
-const description = 'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from New Delhi, India.';
+const title = 'Harsh Kumar Verma | Full Stack Developer From New Delhi, India.'
+const description = 'A self-taught programmer who specializes in full stack development (Next.js & Node.js), from New Delhi, India.'
 
 export const metadata: Metadata = {
   title,
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
-};
+}
 
 export const viewport: Viewport = {
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
-};
+}
 
 export default function RootLayout({
   children,
